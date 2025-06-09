@@ -14,8 +14,7 @@ A deep learning tool for protein sequence classification using a hybrid CNN-RNN 
 
 ### Prerequisites
 
-- Ubuntu/Linux system
-- Python 3.7 or higher
+- Ubuntu/Linux termina
 - pip3
 
 ### Quick Installation
@@ -47,6 +46,49 @@ pip3 install -r requirements.txt
 2. Make the script executable:
 ```bash
 chmod +x pgppred_predict.py
+```
+
+### Installation using Miniconda
+
+1. Install  Miniconda (if not installed)
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+2. Activate conda base environment
+```
+conda init
+```
+Then, restart your terminal or run:
+```
+source ~/.bashrc
+```
+After that, activate the base environment with:
+```
+conda activate
+```
+Make sure you have Python specific version installed:
+```
+conda create -n py312 python=3.12.9
+conda activate py312
+python --version
+```
+Make sure you have specific Tensorflow, Keras, numpy, scikit-learn versions installed:
+```
+tensorflow>=2.8.0
+keras>=2.8.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+conda install -c conda-forge "tensorflow>=2.8.0"
+conda install -c conda-forge "keras>=2.8.0"
+conda install -c conda-forge "numpy>=1.21.0"
+conda install -c conda-forge "scikit-learn>=1.0.0"
+```
+
+# Activate Python 3.12
+```
+conda activate py312
 ```
 
 ## Usage
@@ -153,7 +195,7 @@ ls predictions/
 
 ## License
 
-[Add your license information here]
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Citation
 
@@ -161,4 +203,5 @@ ls predictions/
 
 ## Contact
 
-[Add your contact information]
+Author: Saborni Sarker
+GitHub: https://github.com/aidrabd/pgppred
