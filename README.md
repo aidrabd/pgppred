@@ -1,4 +1,4 @@
-# PGPpred (Plant Growth Promtion Prediction): Protein Group Prediction Tool
+# PGPpred (Plant Growth Promotion Prediction): Protein Group Prediction Tool
 
 A deep learning framework for protein sequence classification using a hybrid CNN-RNN model. This tool predicts whether protein sequences belong to PGP (Plant Growth Promoting) or Non-PGP (Non-Plant Growth Promoting) groups.
 
