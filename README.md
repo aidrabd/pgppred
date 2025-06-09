@@ -1,12 +1,13 @@
-# PGPpred: Protein Group Prediction Tool
+# PGPpred (Plant Growth Promtion Prediction): Protein Group Prediction Tool
 
-A deep learning tool for protein sequence classification using a hybrid CNN-RNN model. This tool predicts whether protein sequences belong to PGP or Non-PGP groups.
+A deep learning framework for protein sequence classification using a hybrid CNN-RNN model. This tool predicts whether protein sequences belong to PGP (Plant Growth Promoting) or Non-PGP (Non-Plant Growth Promoting) groups.
 
 ## Features
 
 - Predicts protein sequences from FASTA files (.fa, .fasta, .txt)
 - Uses a pre-trained hybrid CNN-RNN deep learning model
 - Supports batch processing of multiple files
+- Handles millions of sequences at a time
 - Outputs predictions in CSV format and grouped FASTA files
 - Command-line interface for easy integration into workflows
 
