@@ -204,5 +204,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Author: Saborni Sarker
-GitHub: https://github.com/aidrabd/pgppred
+- Author: Saborni Sarker
+- GitHub: https://github.com/aidrabd/pgppred
