@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+!pip install tensorflow>=2.8.0
+!pip install keras>=2.8.0
+!pip install numpy>=1.21.0
+!pip install scikit-learn>=1.0.0
+
 import os
 import sys
 import csv
