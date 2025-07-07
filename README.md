@@ -200,7 +200,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Citation
 
-[Add citation information if this tool is published]
+[The tool is yet to published]
 
 ## Contact
 
